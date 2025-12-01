@@ -1,0 +1,31 @@
+.dashboard-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.track-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.track-btn {
+  width: 120px;
+}
+
+.shipments-card {
+  margin-top: 20px;
+}
+
+.profile-card {
+  max-width: 400px;
+}

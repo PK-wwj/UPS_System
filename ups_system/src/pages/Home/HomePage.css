@@ -1,0 +1,71 @@
+.ups-header {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #b7860b;
+  margin-right: 40px;
+}
+
+.ups-menu {
+  flex: 1;
+  background: transparent;
+  border-bottom: none;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon {
+  font-size: 20px;
+}
+
+.login-btn {
+  background: #ffd100;
+  border: none;
+  color: black;
+}
+
+.track-section {
+  background: #8b5c3d;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.track-box {
+  width: 600px;
+  color: white;
+}
+
+.track-title {
+  border-bottom: 3px solid #ffd100;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.track-input {
+  margin: 20px 0;
+}
+
+.track-btn {
+  background: #ffd100;
+  border: none;
+  color: black;
+}
+
+.help-link {
+  margin-top: 20px;
+}
+
+.help-link a {
+  color: #ffd100;
+}

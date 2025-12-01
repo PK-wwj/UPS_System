@@ -1,0 +1,35 @@
+.ups-header {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #b7860b;
+  margin-right: 40px;
+}
+
+.ups-menu {
+  flex: 1;
+  background: transparent;
+  border-bottom: none;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-icon {
+  font-size: 20px;
+}
+
+.login-btn {
+  background: #ffd100;
+  border: none;
+  color: black;
+}
