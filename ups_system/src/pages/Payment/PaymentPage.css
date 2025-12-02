@@ -1,0 +1,59 @@
+.ups-payment-container {
+  padding: 40px;
+  background: #f7f3ee;
+  min-height: 100vh;
+}
+
+.ups-payment-card {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 1px solid #d9d0c4;
+}
+
+.ups-payment-card .ant-card-head {
+  background: #351c15;
+}
+
+.ups-payment-card .ant-card-head-title {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Section title */
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #351c15;
+  margin-top: 10px;
+}
+
+/* Saved cards list style */
+.card-list .ant-radio-wrapper {
+  display: block;
+  padding: 8px 0;
+}
+
+/* Two-column grid */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+/* UPS gold button */
+.ups-pay-btn {
+  background-color: #ffb500;
+  border-color: #ffb500;
+  color: #351c15;
+  font-weight: 600;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.ups-pay-btn:hover {
+  background-color: #e0a400;
+  border-color: #e0a400;
+  color: #351c15;
+}
