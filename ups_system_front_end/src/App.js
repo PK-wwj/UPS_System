@@ -6,6 +6,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import EmployeeDashboard from "./pages/EDashboard/EmployeeDashboard";
 import CreateShipmentPage from "./pages/CreateShipmentPage/CreateShipmentPage";
 import PaymentPage from "./pages/Payment/PaymentPage";
+import TrackingDetail from "./pages/TrackingDetail/TrackingDetail";
 export default function App() {
   console.log("App.js 已加载");
   return (
@@ -27,7 +28,9 @@ export default function App() {
         {/* 员工 Dashboard */}
         <Route path="/CreateShipment" element={<CreateShipmentPage />} />
 
-        <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/Payment" element={<PaymentPage />} />
+
+        <Route path="/Tracking" element={<TrackingDetail />} />
 
       </Routes>
     </BrowserRouter>

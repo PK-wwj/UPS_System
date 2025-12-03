@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "f56efeb057991c89",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c68bac13e9ab038",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c5a4916d5bbc130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ToDoList.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ToDoList"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dc5aad9208c10e8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d05449b1e51b3ea4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e0ed276fbaf4620",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "2d6690d6e296792a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "204f7ac7f4e50150",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40fb734d54c0889a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e32c47572fe19eda",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "675fa0b6c24fd5c6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ToDoList.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "ToDoList 的反向链接列表"
+            }
+          },
+          {
+            "id": "2fe036122e226b18",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ToDoList.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "ToDoList 的出链列表"
+            }
+          },
+          {
+            "id": "d567d1f4d3098ab3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "5dde0d2b193e75f9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "b8b683ddfb558a62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ToDoList.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "ToDoList 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "6c5a4916d5bbc130",
+  "lastOpenFiles": [
+    "Buglog.md",
+    "New DOC 文档.doc",
+    "SQL/V3_change.sql",
+    "SQL/New DOC 文档.doc",
+    "ups_system_back_end/payment.js",
+    "ups_system_front_end/src/components/AddCardForm/AddCardForm.css",
+    "ups_system_front_end/src/components/AddCardForm/AddCardForm.js",
+    "ups_system_front_end/src/components/AddCardForm",
+    "ups_system_back_end/shipment.js",
+    "ups_system_back_end/node_modules/pg-protocol/src/types/chunky.d.ts",
+    "ups_system_back_end/node_modules/pg-protocol/src/testing/test-buffers.ts",
+    "ups_system_back_end/node_modules/xtend/README.md",
+    "ups_system_back_end/node_modules/wrappy/README.md",
+    "ups_system_back_end/node_modules/vary/README.md",
+    "ups_system_back_end/node_modules/vary/HISTORY.md",
+    "ups_system_back_end/node_modules/unpipe/README.md",
+    "ups_system_back_end/node_modules/unpipe/HISTORY.md",
+    "ups_system_back_end/node_modules/type-is/README.md",
+    "ups_system_back_end/node_modules/type-is/HISTORY.md",
+    "ups_system_back_end/node_modules/toidentifier/README.md",
+    "ups_system_back_end/node_modules/toidentifier/HISTORY.md",
+    "ups_system_back_end/node_modules/statuses/README.md",
+    "ups_system_back_end/node_modules/statuses/HISTORY.md",
+    "ups_system_back_end/node_modules/split2/README.md",
+    "ups_system_back_end/node_modules/side-channel-weakmap/README.md",
+    "ups_system_back_end/node_modules/side-channel-weakmap/CHANGELOG.md",
+    "ups_system_back_end/node_modules/side-channel-map/README.md",
+    "ups_system_back_end/node_modules/side-channel-map/CHANGELOG.md",
+    "ups_system_back_end/node_modules/side-channel-list/README.md",
+    "ups_system_back_end/node_modules/side-channel-list/CHANGELOG.md",
+    "ups_system_back_end/node_modules/side-channel/README.md",
+    "ups_system_back_end/node_modules/side-channel/CHANGELOG.md",
+    "ups_system_back_end/node_modules/setprototypeof/README.md",
+    "ups_system_back_end/node_modules/serve-static/README.md",
+    "ups_system_back_end/node_modules/serve-static/HISTORY.md",
+    "ups_system_back_end/node_modules/send/README.md",
+    "ups_system_front_end/node_modules/istanbul-reports/lib/html-spa/assets/sort-arrow-sprite.png",
+    "ups_system_front_end/node_modules/istanbul-reports/lib/html/assets/sort-arrow-sprite.png",
+    "ups_system_front_end/node_modules/istanbul-reports/lib/html/assets/favicon.png",
+    "ups_system_front_end/node_modules/@jest/core/build/assets/jest_logo.png",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/warning.svg",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/wallet.svg",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/video-camera.svg",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/usb.svg",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/up-square.svg",
+    "ups_system_front_end/node_modules/@ant-design/icons-svg/inline-svg/twotone/up-circle.svg"
+  ]
+}

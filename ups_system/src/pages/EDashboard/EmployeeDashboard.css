@@ -1,0 +1,73 @@
+/* 整个页面背景和布局 */
+.employee-dashboard {
+  min-height: 100vh;
+  padding: 24px 32px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+/* 顶部标题区域 */
+.employee-header {
+  margin-bottom: 16px;
+}
+
+.employee-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2933;
+}
+
+.employee-subtitle {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* 内容区域卡片感 */
+.employee-content {
+  margin-top: 16px;
+  background-color: #ffffff;
+  padding: 16px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.05);
+}
+
+/* 表格样式微调 */
+.employee-table .ant-table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.employee-table .ant-table-thead > tr > th {
+  background-color: #f9fafb;
+  font-weight: 600;
+}
+
+/* 鼠标移上去高亮一行 */
+.employee-table .ant-table-tbody > tr:hover > td {
+  background-color: #f3f4ff;
+  cursor: pointer;
+}
+
+/* 详情区域 */
+.employee-detail {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.employee-detail p {
+  margin-bottom: 8px;
+}
+
+.detail-label {
+  display: inline-block;
+  width: 80px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Drawer 里的标题更醒目一点，如果你愿意可以额外加 */
+.ant-drawer-title {
+  font-weight: 600;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Card, Form, Radio, Input, Button } from "antd";
 import "./PaymentPage.css";
+import AddCardForm from "../../components/AddCardForm/AddCardForm" // 引入新组件
 
 export default function PaymentPage() {
   const [hasCards] = useState(true); // 模拟用户是否已有绑定卡（你可以从后端获取）
@@ -12,9 +13,18 @@ export default function PaymentPage() {
     { id: 2, last4: "9901" }
   ];
 
-  const onFinish = (values) => {
-    console.log("Payment submitted:", values);
-  };
+  const onFinish = async (values) => {
+    console.log("submit values:", values)
+    values.method = Number(values.method)//make it is int
+    const response = await fetch("http://localhost:5000/api/payment/add", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(values)
+    })
+    const result = await response.json()
+    console.log("Backend:", result)
+    alert("Payment saved successfully!")
+  }
 
   return (
     <div className="ups-payment-container">
@@ -51,43 +61,9 @@ export default function PaymentPage() {
             </Form.Item>
           )}
 
-          {/* 输入新卡信息 */}
+          {/* 只有选择 Use New Card 时才显示 */}
           {selectedMethod === "new" && (
-            <div className="new-card-section">
-              <h3 className="section-title">Card Information</h3>
-
-              <Form.Item
-                name="cardNumber"
-                label="Card Number"
-                rules={[
-                  { required: true, message: "Please enter card number" },
-                  { len: 16, message: "Card number must be 16 digits" }
-                ]}
-              >
-                <Input maxLength={16} />
-              </Form.Item>
-
-              <div className="grid-2">
-                <Form.Item
-                  name="expiry"
-                  label="Expiry Date (MM/YY)"
-                  rules={[{ required: true, message: "Required" }]}
-                >
-                  <Input placeholder="MM/YY" maxLength={5} />
-                </Form.Item>
-
-                <Form.Item
-                  name="cvv"
-                  label="CVV"
-                  rules={[
-                    { required: true, message: "Required" },
-                    { len: 3, message: "3-digit security code" }
-                  ]}
-                >
-                  <Input maxLength={3} />
-                </Form.Item>
-              </div>
-            </div>
+            <AddCardForm />
           )}
 
           {/* 提交按钮 */}
